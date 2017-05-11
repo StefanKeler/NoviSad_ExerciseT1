@@ -26,6 +26,11 @@ public class Frame {
 	public void addBonus(int bonus){
 		scoreWithBonus = score() + bonus;
 	}
+	
+	public int scoreWithBonus(){
+		//to be implemented
+		return scoreWithBonus;
+	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){

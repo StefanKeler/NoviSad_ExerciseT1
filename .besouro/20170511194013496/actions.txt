@@ -63,3 +63,9 @@ RefactoringAction 1494527516692 TestBowling.java ADD void testScore()/2 METHOD
 RefactoringAction 1494527520217 TestBowling.java RENAME testScore()/2=>void testScoreBonus() METHOD
 EditAction 1494527537755 TestBowling.java 783 5 15 5
 EditAction 1494527542973 BowlingGame.java 938 5 5 0
+UnitTestCaseAction 1494527546554 TestBowling.java FAIL
+UnitTestSessionAction 1494527546558 TestBowling.java FAIL
+RefactoringAction 1494527565115 Frame.java ADD int score()/2 METHOD
+RefactoringAction 1494527567130 Frame.java RENAME score()/2=>int scoreW() METHOD
+RefactoringAction 1494527569146 Frame.java RENAME scoreW()=>int scoreWithBonus() METHOD
+EditAction 1494527575860 Frame.java 1021 8 12 0
