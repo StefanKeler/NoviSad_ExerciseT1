@@ -21,8 +21,14 @@ public class BowlingGame {
 	}
 	
 	// Sets the bonus throws at the end of the game
-	public void setBonus(int firstThrow, int secondThrow) {
-		
+	public void setBonus(Frame f, int treceBacanje) throws BowlingException{
+		if(frames.size() != 10){
+			throw new BowlingException();
+		}else if(f == frames.get(9)){
+			f.addBonus(treceBacanje);
+		}else{
+			throw new BowlingException();
+		}
 	}
 	
 	public void dodajBonuseFrejmovima(){

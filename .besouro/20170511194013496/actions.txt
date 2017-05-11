@@ -112,3 +112,9 @@ RefactoringAction 1494528248407 TestBowling.java RENAME testScoreOnGameWithS()=>
 EditAction 1494528268967 TestBowling.java 1300 7 27 7
 EditAction 1494528275864 TestBowling.java 1300 7 27 7
 EditAction 1494528285178 TestBowling.java 1300 7 27 7
+UnitTestCaseAction 1494528290933 TestBowling.java OK
+UnitTestSessionAction 1494528290935 TestBowling.java OK
+RefactoringAction 1494528530040 BowlingGame.java RENAME setBonus(int, int)=>void setBonus(int) METHOD
+RefactoringAction 1494528609782 BowlingGame.java RENAME setBonus(int)=>void setBonus(frameint) METHOD
+RefactoringAction 1494528616342 BowlingGame.java RENAME setBonus(frameint)=>void setBonus(Frame, int) METHOD
+EditAction 1494528736804 BowlingGame.java 1572 6 10 0
