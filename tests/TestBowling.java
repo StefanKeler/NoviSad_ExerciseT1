@@ -26,6 +26,14 @@ public class TestBowling {
 	}
 	
 	@Test
+	public void testScoreBonus() {
+		Frame f = new Frame(3,5);
+		f.addBonus(5);
+		assertEquals(13, f.score());
+		
+	}
+	
+	@Test
 	public void testScoreOnGame() {
 		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(3,5);
@@ -36,4 +44,6 @@ public class TestBowling {
 		
 	}
 
+	
+	
 }

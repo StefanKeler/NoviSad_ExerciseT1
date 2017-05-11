@@ -57,3 +57,8 @@ RefactoringAction 1494527413169 Frame.java RENAME scorew=>int scoreWithBonus FIE
 RefactoringAction 1494527456818 Frame.java RENAME scoreWithBonus()=>void addBonus() METHOD
 RefactoringAction 1494527464989 Frame.java RENAME addBonus()=>void addBonus(int) METHOD
 EditAction 1494527479848 Frame.java 934 7 11 0
+RefactoringAction 1494527502118 TestBowling.java ADD void testScoreOnGame()/2 METHOD
+RefactoringAction 1494527504138 TestBowling.java REMOVE testScoreOnGame()/2 METHOD
+RefactoringAction 1494527516692 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1494527520217 TestBowling.java RENAME testScore()/2=>void testScoreBonus() METHOD
+EditAction 1494527537755 TestBowling.java 783 5 15 5
