@@ -40,6 +40,15 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		int s = 0;
 		for(Frame f : frames){
+			s += f.score();
+		}
+		return s;
+	}
+	
+	public int scoreWithBonus(){
+		//to be implemented: should return game score 
+		int s = 0;
+		for(Frame f : frames){
 			s += f.scoreWithBonus();
 		}
 		return s;
