@@ -24,6 +24,15 @@ public class BowlingGame {
 		
 	}
 	
+	public void dodajBonuseFrejmovima(){
+		
+		for(int i = 0; i < frames.size(); i++){
+			if(frames.get(i).isSpare() && i != frames.size() - 1){
+				
+			}
+		}
+	}
+	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 

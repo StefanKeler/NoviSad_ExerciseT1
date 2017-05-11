@@ -62,3 +62,4 @@ RefactoringAction 1494527504138 TestBowling.java REMOVE testScoreOnGame()/2 METH
 RefactoringAction 1494527516692 TestBowling.java ADD void testScore()/2 METHOD
 RefactoringAction 1494527520217 TestBowling.java RENAME testScore()/2=>void testScoreBonus() METHOD
 EditAction 1494527537755 TestBowling.java 783 5 15 5
+EditAction 1494527542973 BowlingGame.java 938 5 5 0
