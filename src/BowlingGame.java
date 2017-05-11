@@ -46,6 +46,7 @@ public class BowlingGame {
 	}
 	
 	public int scoreWithBonus(){
+		dodajBonuseFrejmovima();
 		//to be implemented: should return game score 
 		int s = 0;
 		for(Frame f : frames){
