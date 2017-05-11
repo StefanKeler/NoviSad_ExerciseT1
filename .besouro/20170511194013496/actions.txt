@@ -7,3 +7,4 @@ RefactoringAction 1494525590096 TestBowling.java RENAME test()=>void testS() MET
 RefactoringAction 1494525592607 TestBowling.java RENAME testS()=>void testSpare() METHOD
 RefactoringAction 1494525796523 TestBowling.java RENAME testSpare()=>void testStrike() METHOD
 EditAction 1494525804933 TestBowling.java 202 1 2 1
+EditAction 1494525811331 BowlingGame.java 707 4 2 0
