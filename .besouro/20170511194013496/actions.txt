@@ -15,3 +15,6 @@ RefactoringAction 1494525825176 TestBowling.java RENAME testStrike()/2=>void tes
 RefactoringAction 1494525827204 TestBowling.java RENAME testS()=>void testSp() METHOD
 RefactoringAction 1494525828717 TestBowling.java RENAME testSp()=>void testSpare() METHOD
 EditAction 1494525837683 TestBowling.java 298 2 4 2
+UnitTestCaseAction 1494525842047 TestBowling.java OK
+UnitTestSessionAction 1494525842049 TestBowling.java OK
+EditAction 1494525850215 TestBowling.java 306 2 4 2
