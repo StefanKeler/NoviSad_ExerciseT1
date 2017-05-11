@@ -1,12 +1,12 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private int scoreWithBonus;
+	private int scoreBonus;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		this.scoreWithBonus = 0;
+		this.scoreBonus = 0;
 	}
 	
 	public int getFirstThrow() {
@@ -24,12 +24,12 @@ public class Frame {
 	}
 	
 	public void addBonus(int bonus){
-		scoreWithBonus = score() + bonus;
+		scoreBonus = bonus;
 	}
 	
 	public int scoreWithBonus(){
 		//to be implemented
-		return scoreWithBonus;
+		return score() + scoreBonus;
 	}
 
 	//returns whether the frame is a strike or not
