@@ -10,6 +10,8 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	int s = 0;
+	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
@@ -19,12 +21,16 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		
 	}
 	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
-		return 0;
+		int s = 0;
+		for(Frame f : frames){
+			s += f.score();
+		}
+		return s;
 	}
 }

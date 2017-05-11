@@ -23,3 +23,12 @@ UnitTestSessionAction 1494525855012 TestBowling.java OK
 RefactoringAction 1494525883368 TestBowling.java ADD void testSpare()/2 METHOD
 RefactoringAction 1494525886390 TestBowling.java RENAME testSpare()/2=>void testScore() METHOD
 EditAction 1494525906408 TestBowling.java 413 3 6 3
+UnitTestCaseAction 1494525910793 TestBowling.java OK
+UnitTestSessionAction 1494525910794 TestBowling.java OK
+RefactoringAction 1494525981527 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1494525987546 TestBowling.java REMOVE testScore()/2 METHOD
+RefactoringAction 1494526035437 BowlingGame.java ADD int s FIELD
+RefactoringAction 1494526037961 BowlingGame.java RENAME s=>int score FIELD
+RefactoringAction 1494526043490 BowlingGame.java REMOVE score FIELD
+RefactoringAction 1494526046029 BowlingGame.java ADD int s FIELD
+EditAction 1494526797560 BowlingGame.java 769 4 4 0
