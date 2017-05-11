@@ -7,6 +7,7 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		this.scoreBonus = 0;
+		
 	}
 	
 	public int getFirstThrow() {
