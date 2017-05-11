@@ -132,7 +132,7 @@ public class TestBowling {
 		game.addFrame(f10);
 		game.setBonus(f10, 6);	
 		
-		assertEquals(133, f10.scoreWithBonus());
+		assertEquals(133, game.scoreWithBonus());
 	}
 
 	
