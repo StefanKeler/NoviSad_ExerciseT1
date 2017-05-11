@@ -106,3 +106,7 @@ EditAction 1494528132991 Frame.java 1005 8 12 0
 UnitTestCaseAction 1494528139038 TestBowling.java OK
 UnitTestSessionAction 1494528139040 TestBowling.java OK
 EditAction 1494528216354 BowlingGame.java 1385 6 9 0
+RefactoringAction 1494528238861 TestBowling.java ADD void testScoreOnGameWithSpare()/2 METHOD
+RefactoringAction 1494528247386 TestBowling.java RENAME testScoreOnGameWithSpare()/2=>void testScoreOnGameWithS() METHOD
+RefactoringAction 1494528248407 TestBowling.java RENAME testScoreOnGameWithS()=>void testScoreOnGameWithStrike() METHOD
+EditAction 1494528268967 TestBowling.java 1300 7 27 7
