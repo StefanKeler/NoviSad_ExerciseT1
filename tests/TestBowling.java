@@ -29,7 +29,7 @@ public class TestBowling {
 	public void testScoreBonus() {
 		Frame f = new Frame(3,5);
 		f.addBonus(5);
-		assertEquals(13, f.score());
+		assertEquals(13, f.scoreWithBonus());
 		
 	}
 	

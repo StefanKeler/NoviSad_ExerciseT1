@@ -69,3 +69,6 @@ RefactoringAction 1494527565115 Frame.java ADD int score()/2 METHOD
 RefactoringAction 1494527567130 Frame.java RENAME score()/2=>int scoreW() METHOD
 RefactoringAction 1494527569146 Frame.java RENAME scoreW()=>int scoreWithBonus() METHOD
 EditAction 1494527575860 Frame.java 1021 8 12 0
+UnitTestCaseAction 1494527582822 TestBowling.java FAIL
+UnitTestSessionAction 1494527582824 TestBowling.java FAIL
+EditAction 1494527588786 TestBowling.java 792 5 15 5
