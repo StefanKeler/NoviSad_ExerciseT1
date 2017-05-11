@@ -151,3 +151,8 @@ CompilationAction 1494529175795 TestBowling.java
 UnitTestCaseAction 1494529181246 TestBowling.java FAIL
 UnitTestSessionAction 1494529181247 TestBowling.java FAIL
 EditAction 1494529187630 BowlingGame.java 1572 6 10 0
+UnitTestCaseAction 1494529196119 TestBowling.java OK
+UnitTestSessionAction 1494529196121 TestBowling.java OK
+RefactoringAction 1494529222391 TestBowling.java ADD void testDodavanjeBonusaNa10Frejm()/2 METHOD
+RefactoringAction 1494529227450 TestBowling.java RENAME testDodavanjeBonusaNa10Frejm()/2=>void testPartije() METHOD
+EditAction 1494529348596 TestBowling.java 3039 10 79 9
