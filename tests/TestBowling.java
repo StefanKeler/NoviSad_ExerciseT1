@@ -77,7 +77,7 @@ public class TestBowling {
 		game.setBonus(f2, 5);		
 	}
 	
-	@Test(expected=BowlingException.class)
+	@Test
 	public void testDodavanjeBonusaNa10Frejm() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(10,0);
