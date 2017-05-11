@@ -124,3 +124,16 @@ RefactoringAction 1494528797569 TestBowling.java RENAME test()=>void testPokusaj
 RefactoringAction 1494528798602 TestBowling.java RENAME testPokusajDodavanjaBonusaNa()=>void testPokusajDodavanjaBonusaNa2() METHOD
 RefactoringAction 1494528800638 TestBowling.java RENAME testPokusajDodavanjaBonusaNa2()=>void testPokusajDodavanjaBonusaNa2Frejm() METHOD
 EditAction 1494528861680 TestBowling.java 1597 8 33 7
+UnitTestCaseAction 1494528865734 TestBowling.java OK
+UnitTestSessionAction 1494528865739 TestBowling.java OK
+RefactoringAction 1494528875975 TestBowling.java ADD void testPokusajDodavanjaBonusaNa2Frejm()/2 METHOD
+RefactoringAction 1494528884016 TestBowling.java RENAME testPokusajDodavanjaBonusaNa2Frejm()/2=>void testPokusajDodavanje FIELD
+RefactoringAction 1494528886546 TestBowling.java RENAME testPokusajDodavanje=>void testPokusajD FIELD
+RefactoringAction 1494528889092 TestBowling.java RENAME testPokusajD=>void test FIELD
+RefactoringAction 1494528895122 TestBowling.java REMOVE test FIELD
+RefactoringAction 1494528901685 TestBowling.java ADD void testPokusajDodavanjaBonusaNa2Frejm()/2 METHOD
+RefactoringAction 1494528903711 TestBowling.java RENAME testPokusajDodavanjaBonusaNa2Frejm()/2=>void t() METHOD
+RefactoringAction 1494528904734 TestBowling.java RENAME t()=>void test2() METHOD
+RefactoringAction 1494528907293 TestBowling.java RENAME test2()=>void testDodavanje() METHOD
+RefactoringAction 1494528911820 TestBowling.java RENAME testDodavanje()=>void testDodavanjeBonusaNa10Frejm() METHOD
+EditAction 1494528997515 TestBowling.java 2360 9 56 8
