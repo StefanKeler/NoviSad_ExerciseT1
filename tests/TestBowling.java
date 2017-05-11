@@ -78,7 +78,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testDodavanjeBonusaNa10Frejm(){
+	public void testDodavanjeBonusaNa10Frejm() throws BowlingException{
 		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(10,0);
 		Frame f2 = new Frame(1,4);
