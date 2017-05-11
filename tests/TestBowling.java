@@ -66,6 +66,16 @@ public class TestBowling {
 		assertEquals(20, game.scoreWithBonus());
 		
 	}
+	
+	@Test(expected=BowlingException.class)
+	public void testPokusajDodavanjaBonusaNa2Frejm() throws BowlingException{
+		BowlingGame game = new BowlingGame();
+		Frame f1 = new Frame(10,0);
+		Frame f2 = new Frame(1,4);
+		game.addFrame(f1);
+		game.addFrame(f2);
+		game.setBonus(f2, 5);		
+	}
 
 	
 	

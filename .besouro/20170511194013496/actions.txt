@@ -118,3 +118,9 @@ RefactoringAction 1494528530040 BowlingGame.java RENAME setBonus(int, int)=>void
 RefactoringAction 1494528609782 BowlingGame.java RENAME setBonus(int)=>void setBonus(frameint) METHOD
 RefactoringAction 1494528616342 BowlingGame.java RENAME setBonus(frameint)=>void setBonus(Frame, int) METHOD
 EditAction 1494528736804 BowlingGame.java 1572 6 10 0
+RefactoringAction 1494528752288 TestBowling.java ADD void testScoreOnGameWithStrike()/2 METHOD
+RefactoringAction 1494528757310 TestBowling.java RENAME testScoreOnGameWithStrike()/2=>void test() METHOD
+RefactoringAction 1494528797569 TestBowling.java RENAME test()=>void testPokusajDodavanjaBonusaNa() METHOD
+RefactoringAction 1494528798602 TestBowling.java RENAME testPokusajDodavanjaBonusaNa()=>void testPokusajDodavanjaBonusaNa2() METHOD
+RefactoringAction 1494528800638 TestBowling.java RENAME testPokusajDodavanjaBonusaNa2()=>void testPokusajDodavanjaBonusaNa2Frejm() METHOD
+EditAction 1494528861680 TestBowling.java 1597 8 33 7
