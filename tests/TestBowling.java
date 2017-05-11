@@ -106,6 +106,7 @@ public class TestBowling {
 		assertEquals(30, f10.scoreWithBonus());
 	}
 	
+	//test sa papira
 	@Test
 	public void testPartije() throws BowlingException{
 		BowlingGame game = new BowlingGame();
