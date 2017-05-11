@@ -1,3 +1,4 @@
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +30,7 @@ public class BowlingGame {
 		for(int i = 0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() && i != frames.size() - 1){
 				frames.get(i).addBonus(frames.get(i+1).getFirstThrow());
+				System.out.println(frames.get(i+1).getFirstThrow());
 			}
 		}
 	}
@@ -38,7 +40,7 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		int s = 0;
 		for(Frame f : frames){
-			s += f.score();
+			s += f.scoreWithBonus();
 		}
 		return s;
 	}
