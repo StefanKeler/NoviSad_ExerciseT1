@@ -137,3 +137,6 @@ RefactoringAction 1494528904734 TestBowling.java RENAME t()=>void test2() METHOD
 RefactoringAction 1494528907293 TestBowling.java RENAME test2()=>void testDodavanje() METHOD
 RefactoringAction 1494528911820 TestBowling.java RENAME testDodavanje()=>void testDodavanjeBonusaNa10Frejm() METHOD
 EditAction 1494528997515 TestBowling.java 2360 9 56 8
+UnitTestCaseAction 1494529004270 TestBowling.java FAIL
+UnitTestSessionAction 1494529004274 TestBowling.java FAIL
+EditAction 1494529073902 BowlingGame.java 1636 6 12 0
