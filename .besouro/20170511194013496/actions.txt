@@ -80,3 +80,6 @@ RefactoringAction 1494527656148 TestBowling.java RENAME testScoreOnGame()/2=>voi
 RefactoringAction 1494527669167 TestBowling.java RENAME testScoreOnGameWithBonus()=>void testScoreOnGameWith() METHOD
 RefactoringAction 1494527670701 TestBowling.java RENAME testScoreOnGameWith()=>void testScoreOnGameWithSpare() METHOD
 EditAction 1494527705105 TestBowling.java 1034 6 21 6
+UnitTestCaseAction 1494527709662 TestBowling.java FAIL
+UnitTestSessionAction 1494527709675 TestBowling.testScoreOnGameWithSpare FAIL
+EditAction 1494527733288 TestBowling.java 1067 6 22 6
