@@ -43,6 +43,17 @@ public class TestBowling {
 		assertEquals(11, game.score());
 		
 	}
+	
+	@Test
+	public void testScoreOnGameWithSpare() {
+		BowlingGame game = new BowlingGame();
+		Frame f1 = new Frame(5,5);
+		Frame f2 = new Frame(2,2);
+		game.addFrame(f1);
+		game.addFrame(f2);
+		assertEquals(16, game.score());
+		
+	}
 
 	
 	

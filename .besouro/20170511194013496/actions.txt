@@ -75,3 +75,8 @@ EditAction 1494527588786 TestBowling.java 792 5 15 5
 UnitTestCaseAction 1494527593476 TestBowling.java OK
 UnitTestSessionAction 1494527593477 TestBowling.java OK
 EditAction 1494527642129 BowlingGame.java 994 5 5 0
+RefactoringAction 1494527650629 TestBowling.java ADD void testScoreOnGame()/2 METHOD
+RefactoringAction 1494527656148 TestBowling.java RENAME testScoreOnGame()/2=>void testScoreOnGameWithBonus() METHOD
+RefactoringAction 1494527669167 TestBowling.java RENAME testScoreOnGameWithBonus()=>void testScoreOnGameWith() METHOD
+RefactoringAction 1494527670701 TestBowling.java RENAME testScoreOnGameWith()=>void testScoreOnGameWithSpare() METHOD
+EditAction 1494527705105 TestBowling.java 1034 6 21 6
