@@ -52,7 +52,7 @@ public class TestBowling {
 		game.addFrame(f1);
 		game.addFrame(f2);
 		game.dodajBonuseFrejmovima();
-		assertEquals(16, game.score());
+		assertEquals(16, game.scoreWithBonus());
 		
 	}
 
