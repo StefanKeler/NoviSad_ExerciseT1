@@ -30,6 +30,8 @@ public class TestBowling {
 		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(3,5);
 		Frame f2 = new Frame(1,2);
+		game.addFrame(f1);
+		game.addFrame(f2);
 		assertEquals(11, game.score());
 		
 	}

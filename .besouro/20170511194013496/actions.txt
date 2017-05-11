@@ -36,3 +36,6 @@ RefactoringAction 1494526812777 TestBowling.java ADD void testScore()/2 METHOD
 RefactoringAction 1494526819798 TestBowling.java RENAME testScore()/2=>void testScoreOnGAME() METHOD
 RefactoringAction 1494526822324 TestBowling.java RENAME testScoreOnGAME()=>void testScoreOnGame() METHOD
 EditAction 1494526866311 TestBowling.java 602 4 10 4
+UnitTestCaseAction 1494526871542 TestBowling.java FAIL
+UnitTestSessionAction 1494526871545 TestBowling.java FAIL
+EditAction 1494526917778 TestBowling.java 646 4 12 4
