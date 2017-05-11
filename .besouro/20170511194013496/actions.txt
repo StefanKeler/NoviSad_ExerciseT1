@@ -32,3 +32,7 @@ RefactoringAction 1494526037961 BowlingGame.java RENAME s=>int score FIELD
 RefactoringAction 1494526043490 BowlingGame.java REMOVE score FIELD
 RefactoringAction 1494526046029 BowlingGame.java ADD int s FIELD
 EditAction 1494526797560 BowlingGame.java 769 4 4 0
+RefactoringAction 1494526812777 TestBowling.java ADD void testScore()/2 METHOD
+RefactoringAction 1494526819798 TestBowling.java RENAME testScore()/2=>void testScoreOnGAME() METHOD
+RefactoringAction 1494526822324 TestBowling.java RENAME testScoreOnGAME()=>void testScoreOnGame() METHOD
+EditAction 1494526866311 TestBowling.java 602 4 10 4
