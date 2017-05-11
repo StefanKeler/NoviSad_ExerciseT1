@@ -30,7 +30,8 @@ public class BowlingGame {
 		for(int i = 0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() && i != frames.size() - 1){
 				frames.get(i).addBonus(frames.get(i+1).getFirstThrow());
-				System.out.println(frames.get(i+1).getFirstThrow());
+			}else if(frames.get(i).isStrike() && i != frames.size() - 1){
+				frames.get(i).addBonus(frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow());
 			}
 		}
 	}

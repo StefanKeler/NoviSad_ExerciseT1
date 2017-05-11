@@ -103,3 +103,6 @@ UnitTestCaseAction 1494528047945 TestBowling.java FAIL
 UnitTestSessionAction 1494528047955 TestBowling.java FAIL
 RefactoringAction 1494528114414 Frame.java RENAME scoreWithBonus=>int scoreBonus FIELD
 EditAction 1494528132991 Frame.java 1005 8 12 0
+UnitTestCaseAction 1494528139038 TestBowling.java OK
+UnitTestSessionAction 1494528139040 TestBowling.java OK
+EditAction 1494528216354 BowlingGame.java 1385 6 9 0
