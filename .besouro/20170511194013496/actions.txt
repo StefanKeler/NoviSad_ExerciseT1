@@ -39,3 +39,21 @@ EditAction 1494526866311 TestBowling.java 602 4 10 4
 UnitTestCaseAction 1494526871542 TestBowling.java FAIL
 UnitTestSessionAction 1494526871545 TestBowling.java FAIL
 EditAction 1494526917778 TestBowling.java 646 4 12 4
+UnitTestCaseAction 1494526922491 TestBowling.java OK
+UnitTestSessionAction 1494526922493 TestBowling.java OK
+RefactoringAction 1494527113693 BowlingGame.java ADD int score()/2 METHOD
+RefactoringAction 1494527121796 BowlingGame.java RENAME score()/2=>void dodaj() METHOD
+RefactoringAction 1494527124848 BowlingGame.java RENAME dodaj()=>void dodajBonuse() METHOD
+RefactoringAction 1494527132369 BowlingGame.java RENAME dodajBonuse()=>void dodajBonuseF() METHOD
+RefactoringAction 1494527134392 BowlingGame.java RENAME dodajBonuseF()=>void dodajBonuseFrejmovima() METHOD
+RefactoringAction 1494527338959 Frame.java ADD int score FIELD
+RefactoringAction 1494527350477 Frame.java RENAME score=>int skor FIELD
+RefactoringAction 1494527357514 Frame.java RENAME skor=>int score FIELD
+RefactoringAction 1494527359535 Frame.java RENAME score=>int scoreForFrame FIELD
+RefactoringAction 1494527396613 Frame.java ADD int score()/2 METHOD
+RefactoringAction 1494527400130 Frame.java RENAME score()/2=>int scoreWithBonus() METHOD
+RefactoringAction 1494527410654 Frame.java RENAME scoreForFrame=>int scorew FIELD
+RefactoringAction 1494527413169 Frame.java RENAME scorew=>int scoreWithBonus FIELD
+RefactoringAction 1494527456818 Frame.java RENAME scoreWithBonus()=>void addBonus() METHOD
+RefactoringAction 1494527464989 Frame.java RENAME addBonus()=>void addBonus(int) METHOD
+EditAction 1494527479848 Frame.java 934 7 11 0
